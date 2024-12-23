@@ -1,0 +1,26 @@
+Company_id,name,address,company_code,country,state,city,zip,region_code,phone
+1,Alpha Enterprises,"123 Main St, Suite 4",A12345,USA,CA,Los Angeles,90001,CA-01,123-456-7890
+2,Beta Corp,456 Oak Ave,B67890,USA,TX,Dallas,75001,TX-02,234-567-8901
+3,Gamma Ltd,789 Pine Rd,G34567,UK,London,London,SW1A 1AA,UK-03,345-678-9012
+4,Delta Systems,101 Birch Ln,D12367,USA,NY,New York,10001,NY-04,456-789-0123
+5,Epsilon Tech,202 Maple Dr,E98765,Canada,ON,Toronto,M5A 1A1,CA-05,567-890-1234
+6,Zeta Innovations,303 Cedar Blvd,Z54321,USA,FL,Miami,33101,FL-06,678-901-2345
+7,Theta Group,404 Willow Pl,T87654,USA,IL,Chicago,60601,IL-07,789-012-3456
+8,Iota Enterprises,505 Fir Ct,I65432,Australia,NSW,Sydney,2000,AU-08,890-123-4567
+9,Kappa Industries,606 Elm St,K23456,USA,AZ,Phoenix,85001,AZ-09,901-234-5678
+10,Lambda Solutions,707 Redwood Dr,L76543,USA,NV,Las Vegas,89101,NV-10,012-345-6789
+11,Sigma Co,808 Palm Blvd,S45678,USA,CA,San Diego,92101,CA-11,123-456-789
+12,Omega LLC,909 Pine Ave,O34567,USA,TX,Houston,77001,TX-12,234-567-890
+13,Alpha Inc.,123 Birch Rd,A1234,USA,CA,Los Angeles,90001,CA-01,123-456-7890
+14,Beta LLC,456 Oak Dr,B6789,USA,NY,New York,10001,NY-04,234-567-8901
+15,Gamma Inc.,789 Pine Blvd,G3456,UK,London,London,SW1A 1AA,UK-03,345-678-9012
+16,Delta Group,101 Birch Ct,D123,USA,TX,Dallas,75001,TX-02,456-789-0123
+17,Epsilon Ltd.,202 Maple St,E987,Canada,ON,Toronto,M5A 1A1,CA-05,567-890-1234
+18,Zeta LLC,303 Cedar Rd,Z543,USA,FL,Miami,33101,FL-06,678-901-2345
+19,Theta Corp.,404 Willow Dr,T876,USA,IL,Chicago,60601,IL-07,789-012-3456
+20,Iota Ltd.,505 Fir Rd,I654,Australia,NSW,Sydney,2000,AU-08,890-123-4567
+21,Kappa Corp,606 Elm Ave,K234,USA,AZ,Phoenix,85001,AZ-09,901-234-5678
+22,Lambda Ltd.,707 Redwood St,L765,USA,NV,Las Vegas,89101,NV-10,012-345-6789
+23,Sigma Corp,808 Palm Ave,S456,USA,CA,San Diego,92101,CA-11,123-456-7890
+24,Omega Inc.,909 Pine Dr,O345,USA,TX,Houston,77001,TX-12,234-567-8901
+25,Alpha Innovations,123 River Rd,A12345,USA,FL,Miami,33101,FL-06,345-678-9012
