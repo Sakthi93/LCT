@@ -2,5 +2,5 @@
 *.pyo
 *.csv
 __pycache__/
-.venv/
+lctenv/
 .env
