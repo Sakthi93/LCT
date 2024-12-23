@@ -1,6 +1,5 @@
 *.pyc
 *.pyo
-*.csv
 __pycache__/
 lctenv/
 .env
