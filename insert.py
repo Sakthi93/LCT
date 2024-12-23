@@ -8,7 +8,7 @@ load_dotenv()
 
 aws_access_key_id = os.getenv('AWS_ACCESS_KEY_ID')
 aws_secret_access_key = os.getenv('AWS_SECRET_ACCESS_KEY')
-aws_region = os.getenv('AWS_DEFAULT_REGION')
+aws_region = os.getenv('AWS_REGION')
 try:
         dynamodb = boto3.resource(
         'dynamodb',
@@ -60,14 +60,17 @@ def get_dynamodb_table(name, primary_key):
     return table 
 
 def insert_into_dynamodb(record, filename):
-    columns = record.keys()
-    print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",record)
+    # columns = record.keys()
     primary_key = next(iter(record))
     table = get_dynamodb_table(filename,primary_key)
-    # try:
-    response = table.put_item(
-        Item=record
-    )
-    # except Exception as e:
-    #     print(f"Error inserting record: {e}")
+    if filename == "contact":
+        record['user_id'] = int(record['user_id'])
+    elif filename == "company":
+        record['Company_id'] = int(record['Company_id'])
+    try:
+        response = table.put_item(
+            Item=record
+        )
+    except Exception as e:
+        print(f"Error inserting record: {e}")
   

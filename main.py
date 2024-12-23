@@ -21,7 +21,14 @@ def main():
                     
     elif filename[1] == "company":
         for record in records:
-            validate_company(record)
+           is_valid, message = validate_company(record)
+           if is_valid:                    
+                    insert_into_dynamodb(record,filename[1])
+           else:
+               pass
+    
+           
+      
 
 if __name__ == "__main__":  
     main()

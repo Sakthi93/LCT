@@ -1,4 +1,4 @@
-id,contact_company_id,firstname,lastname,email,phone,address,city,state,zip,country
+user_id,contact_company_id,firstname,lastname,email,phone,address,city,state,zip,country
 1,A12345,John,Doe,john.doe@example.com,123-456-7890,"123 Main St, Suite 4",Los Angeles,CA,90001,USA
 2,B67890,Jane,Smith,jane.smith@example.com,234-567-8901,456 Oak Ave,Dallas,TX,75001,USA
 3,G34567,Alan,Brown,alan.brown@example.com,345-678-9012,789 Pine Rd,London,London,SW1A 1AA,UK

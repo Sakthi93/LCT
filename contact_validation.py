@@ -2,7 +2,7 @@ import re
 
 def validate_contact(record):
     try:
-        company_id = int(record['id'])
+        company_id = int(record['user_id'])
     except ValueError:
         return False, "Invalid Company_id (must be an integer)"
     
@@ -19,6 +19,9 @@ def validate_contact(record):
     zip_code = record['zip']
     if not zip_code.isdigit() or len(zip_code) != 5:
         return False, "Invalid zip code (must be 5 digits)"
-
+    
     return True, "Valid data"
+
+
+
 
